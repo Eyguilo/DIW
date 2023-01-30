@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabla</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        table{
+            margin-left: auto;
+            margin-right: auto;
+            border: 5px solid black;
+            text-align: center;
+            margin-top: 50px;
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 5px solid black;
+            height: 35px;
+        }
+        input{
+            margin: 0;
+            padding: 0;
+            width: 300px;
+        }
+    </style>
+  </head>
+    <form>
+        <table style="width: 90%">
+            <tr >
+                <th colspan="2">Personal Identification</th>
+                <th colspan="2">Employee Identification</th>
+                <th colspan="2">Education</th>
+                <th colspan="2">Languages</th>
+            </tr>
+            <tr >
+                <td><label for="id_name">Name</label></td>
+                <td><input type="text" id="id_name" name="name"></td>
+                <td><label for="id_company">Company</label></td>
+                <td><input type="text" id="id_company" name="company"></td>
+                <td><label for="id_level_1">Level 1</label></td>
+                <td><input type="text" id="id_level_1" name="level_1"></td>
+            </tr>
+            <tr>
+                <td><label for="id_surname">Surname</label></td>
+                <td><input type="text" id="id_surname" name="surname"></td>
+                <td><label for="id_employee_number">Employee Number</label></td>
+                <td><input type="text" id="id_employee_number" name="employee_number"></td>
+                <td><label for="id_level_2">Level 2</label></td>
+                <td><input type="text" id="id_level_2" name="level_2"></td>
+            </tr>
+            <tr>
+                <td><label for="id_gender">Gender</label></td>
+                <td><input type="text" id="id_gender" name="gender"></td>
+                <td><label for="id_user">User</label></td>
+                <td><input type="text" id="id_user" name="user"></td>
+                <td><label for="id_level_3">Level 3</label></td>
+                <td><input type="text" id="id_level_3" name="level_3"></td>
+            </tr>
+            <tr >
+                <td><label for="id_address">Postal Address</label></td>
+                <td><input type="text" id="id_address" name="address"></td>
+                <td><label for="id_password">Password</label></td>
+                <td><input type="text" id="id_password" name="password"></td>
+                <td colspan="2" rowspan="9"></td>
+            </tr>
+            <tr >
+                <td><label for="id_postal_code">Postal Code</label></td>
+                <td><input type="text" id="id_postal_code" name="posta_code"></td>
+                <td><label for="id_department">Department</label></td>
+                <td><input type="text" id="id_department" name="department"></td>
+            </tr>
+            <tr >
+                <td><label for="id_email">Email</label></td>
+                <td><input type="text" id="id_email" name="email"></td>
+                <td><label for="id_start_date">Start Date</label></td>
+                <td><input type="text" id="id_start_date" name="start_date"></td>
+            </tr>
+            <tr>
+                <td><label for="id_phone">Phone</label></td>
+                <td><input type="text" id="id_phone" name="phone"></td>
+                <td><label for="id_work_hours">Work hours</label></td>
+                <td><input type="text" id="id_work_hours" name="work_hours"></td>
+            </tr>
+            <tr>
+                <td><label for="id_mobile">Mobile</label></td>
+                <td><input type="text" id="id_mobile" name="mobile"></td>
+                <td><label for="id_cv">C.V.</label></td>
+                <td><input type="text" id="id_cv" name="cv"></td>
+            </tr>
+            <tr >
+                <td><label for="id_birthdate">Birthdate</label></td>
+                <td><input type="text" id="id_birthdate" name="birthdate"></td>
+                <td colspan="2" rowspan="4"></td>
+                
+            </tr>
+            <tr >
+                <td><label for="id_place_birth">Place of Birth</label></td>
+                <td><input type="text" id="id_place_birth" name="place_birth"></td>
+            </tr>
+            <tr>
+                <td><label for="id_country_birth">Country Birth</label></td>
+                <td><input type="text" id="id_country_birth" name="country_birth"></td>
+            </tr>
+            <tr >
+                <td><label for="id_marital_status">Marital Status</label></td>
+                <td><input type="text" id="id_marital_status" name="marital_status"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
