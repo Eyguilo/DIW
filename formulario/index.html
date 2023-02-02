@@ -47,9 +47,26 @@
                 <td><label for="id_level_1">Level 1</label></td>
                 <td><input type="text" id="id_level_1" name="level_1"></td>
                 <td><label for="id_lenguage_1">English</label></td>
-                <td><input type="text" id="id_lenguage_1" name="lenguage_1"></td>
+                <td>
+                    <select name="level" id="id_lenguage_1">
+                        <option value="native">Native</option>
+                        <option value="c2">C2</option>
+                        <option value="c1">C1</option>
+                        <option value="b2">B2</option>
+                        <option value="b1">B1</option>
+                        <option value="a2">A2</option>
+                        <option value="a1">A1</option>
+                        <option value="none">None</option>
+                    </select>
+                </td>
                 <td><label for="id_payment_1">Card type</label></td>
-                <td><input type="text" id="id_payment_1" name="payment_1"></td>
+                <td>
+                    <select name="card" id="id_payment_1">
+                        <option value="visa">Visa</option>
+                        <option value="master_card">Master Card</option>
+                        <option value="american_express">American Express</option>
+                    </select>
+                </td>
             </tr>
             <tr>
                 <td><label for="id_surname">Surname</label></td>
@@ -59,19 +76,47 @@
                 <td><label for="id_level_2">Level 2</label></td>
                 <td><input type="text" id="id_level_2" name="level_2"></td>
                 <td><label for="id_lenguage_2">Spanish</label></td>
-                <td><input type="text" id="id_lenguage_2" name="lenguage_2"></td>
+                <td>
+                    <select name="level" id="id_lenguage_2">
+                        <option value="native">Native</option>
+                        <option value="c2">C2</option>
+                        <option value="c1">C1</option>
+                        <option value="b2">B2</option>
+                        <option value="b1">B1</option>
+                        <option value="a2">A2</option>
+                        <option value="a1">A1</option>
+                        <option value="none">NONE</option>
+                    </select>
+                </td>
                 <td><label for="id_payment_2">Card number</label></td>
                 <td><input type="text" id="id_payment_2" name="payment_2" placeholder="XXXX-XXXX-XXXX-XXXX"  pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}-[0-9]{4}"></td>
             </tr>
             <tr>
                 <td><label for="id_gender">Gender</label></td>
-                <td><input type="text" id="id_gender" name="gender"></td>
+                <td>
+                    <select name="gender" id="id_gender">
+                        <option value="id_male">Male</option>
+                        <option value="id_female">Female</option>
+                        <option value="id_other">Other</option>
+                    </select>
+                </td>
                 <td><label for="id_user">User</label></td>
                 <td><input type="text" id="id_user" name="user"></td>
                 <td><label for="id_level_3">Level 3</label></td>
                 <td><input type="text" id="id_level_3" name="level_3"></td>
                 <td><label for="id_lenguage_3">Catalan</label></td>
-                <td><input type="text" id="id_lenguage_3" name="lenguage_3"></td>
+                <td>
+                    <select name="level" id="id_lenguage_3">
+                        <option value="native">Native</option>
+                        <option value="c2">C2</option>
+                        <option value="c1">C1</option>
+                        <option value="b2">B2</option>
+                        <option value="b1">B1</option>
+                        <option value="a2">A2</option>
+                        <option value="a1">A1</option>
+                        <option value="none">None</option>
+                    </select>
+                </td>
                 <td><label for="id_payment_3">CVV/CVC</label></td>
                 <td><input type="text" id="id_payment_3" name="payment_3" placeholder="XXX"  pattern="[0-9]{3}"></td>
             </tr>
@@ -81,17 +126,40 @@
                 <td><label for="id_password">Password</label></td>
                 <td><input type="password" id="id_password" name="password"></td>
                 <td colspan="2" rowspan="9"></td>
-                <td><label for="id_lenguage_4">Others</label></td>
-                <td><input type="text" id="id_lenguage_4" name="lenguage_4"></td>
+                <td><label for="id_lenguage_4">German</label></td>
+                <td>
+                    <select name="level" id="id_lenguage_4">
+                        <option value="native">Native</option>
+                        <option value="c2">C2</option>
+                        <option value="c1">C1</option>
+                        <option value="b2">B2</option>
+                        <option value="b1">B1</option>
+                        <option value="a2">A2</option>
+                        <option value="a1">A1</option>
+                        <option value="none">None</option>
+                    </select>
+                </td>
                 <td><label for="id_payment_4">Expiration date</label></td>
-                <td><input type="date" id="id_payment_4" name="payment_4"></td>
+                <td><input type="text" id="id_payment_4" name="payment_4" placeholder="XX/XX"  pattern="[0-12]{2}/[0-9]{2}"></td>
             </tr>
             <tr >
                 <td><label for="id_postal_code">Postal Code</label></td>
-                <td><input type="text" id="id_postal_code" name="posta_code"></td>
+                <td><input type="text" id="id_postal_code" name="posta_code" placeholder="XXXXX"  pattern="[0-9]{5}"></td>
                 <td><label for="id_department">Department</label></td>
                 <td><input type="text" id="id_department" name="department"></td>
-                <td colspan="2" rowspan="8"></td>
+                <td><label for="id_lenguage_5">France</label></td>
+                <td>
+                    <select name="level" id="id_lenguage_5">
+                        <option value="native">Native</option>
+                        <option value="c2">C2</option>
+                        <option value="c1">C1</option>
+                        <option value="b2">B2</option>
+                        <option value="b1">B1</option>
+                        <option value="a2">A2</option>
+                        <option value="a1">A1</option>
+                        <option value="none">None</option>
+                    </select>
+                </td>
                 <td colspan="2" rowspan="8"></td>
             </tr>
             <tr >
@@ -99,24 +167,27 @@
                 <td><input type="email" id="id_email" name="email"></td>
                 <td><label for="id_start_date">Start Date</label></td>
                 <td><input type="date" id="id_start_date" name="start_date"></td>
+                <td><label for="id_language_6">Other</label></td>
+                <td><input type="text" id="id_language_6" name="other_1" placeholder="Language/Level" pattern="[a-zA-ZáéíúóàèìòùÁÉÍÓÚÀÈÌÒÙñÑ]{5-30}/[Native|C2|C1|B2|B1|A2|A1|None]"></td>
             </tr>
             <tr>
                 <td><label for="id_phone">Phone</label></td>
-                <td><input type="tel" id="id_phone" name="phone"></td>
+                <td><input type="text" id="id_phone" name="phone" placeholder="XXX-XXX-XXX"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"></td>
                 <td><label for="id_work_hours">Work hours</label></td>
                 <td><input type="text" id="id_work_hours" name="work_hours"></td>
+                <td><label for="id_language_6">Other</label></td>
+                <td><input type="text" id="id_language_6" name="other_1" placeholder="Language/Level" pattern="[a-zA-ZáéíúóàèìòùÁÉÍÓÚÀÈÌÒÙñÑ]{5-30}/[Native|C2|C1|B2|B1|A2|A1|None]"></td>
+
             </tr>
             <tr>
                 <td><label for="id_mobile">Mobile</label></td>
-                <td><input type="tel" id="id_mobile" name="mobile"></td>
-                <td><label for="id_cv">C.V.</label></td>
-                <td><input type="file" id="id_cv" name="cv"></td>
+                <td><input type="text" id="id_mobile" name="mobile" placeholder="XXX-XXX-XXX"  pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"></td>
+                <td colspan="2"><label for="id_cv">C.V.</label></td>
             </tr>
             <tr >
                 <td><label for="id_birthdate">Birthdate</label></td>
                 <td><input type="date" id="id_birthdate" name="birthdate"></td>
-                <td colspan="2" rowspan="4"></td>
-                
+                <td colspan="2" rowspan="4"><input type="file" id="id_cv" name="cv"></td>             
             </tr>
             <tr >
                 <td><label for="id_place_birth">Place of Birth</label></td>
@@ -124,11 +195,26 @@
             </tr>
             <tr>
                 <td><label for="id_country_birth">Country Birth</label></td>
-                <td><input type="text" id="id_country_birth" name="country_birth"></td>
+                <td>
+                    <select name="country" id="id_country_birth">
+                        <option value="id_country">Spain</option>
+                        <option value="id_country">Germany</option>
+                        <option value="id_country">France</option>
+                        <option value="id_country">Poland</option>
+                        <option value="id_country">Hungary</option>
+                        <option value="id_country">Russia</option>
+                    </select>
+                </td>
             </tr>
             <tr >
                 <td><label for="id_marital_status">Marital Status</label></td>
-                <td><input type="text" id="id_marital_status" name="marital_status"></td>
+                <td>
+                    <select name="gender" id="id_gender">
+                        <option value="id_single">Single</option>
+                        <option value="id_married">Married</option>
+                        <option value="id_relationship">In a relationship</option>
+                    </select>
+                </td>
             </tr>
             <tr >
                 <td colspan="10" style = "background-color: black;"></td>
