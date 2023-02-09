@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="es">
+        <title>CSS Pseudo-Class</title>
+        <style>
+            body{
+                background-color: gray;
+                font-size: large;
+            }
+            a:link{
+                text-decoration: none;
+            }
+            a:visited{
+                color:red;
+            }
+            a:hover{
+                color:pink;
+                text-decoration: underline;
+            }
+            a:active{
+                color: blueviolet;
+            }
+            div.color:hover{
+                background-color: white;
+            }
+            div.childLine::first-line{
+                color:green;
+            }
+            h2.childFirst span:first-child{
+                text-transform: uppercase;
+                color: pink;
+            }
+            h2.oddEven span:nth-child(even){
+                text-transform: uppercase;
+                color:whitesmoke;
+            }
+            h2.oddEven span:nth-child(odd){
+                text-transform: uppercase;
+                color:red;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="https://www.iessonferrer.net">Putimion.</a>
+        <div class="color">sdgds</div>
+
+        <div class="childLine">sdjsljlkjslkjaslkj<br>
+            asdfasfasfdasfa<br>
+        </div>
+
+        <h2 class="childFirst"> <span>asfdasfds</span> safsaf <span>salfasljfkasf</span></h2>
+
+        <h2 class="oddEven">
+
+            <span>H</span>
+            <span>a</span>
+            <span>n</span>
+            <span>c</span>
+            <span>a</span>
+            <span>m</span>
+
+        </h2>
+    </body>
+</html>
