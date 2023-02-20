@@ -40,7 +40,7 @@ p.name {
     margin: auto;
 }
 
-a.nav-link{
+a.nav-link {
     color: black;
     margin-left: auto;
     margin-right: auto;
@@ -54,15 +54,44 @@ a.nav-link{
     font-size: 18px;
 }
 
-a.nav-link:active{
+a.nav-link:active {
     color: black;
     background-color: darkslategrey;
 }
 
-a.nav-link:visited{
+a.nav-link:visited {
     color: black;
 }
-div.circle{
+
+div.circle {
     color: black;
     float: right;
+}
+
+div.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.menu .nav-tabs {
+    --bs-nav-tabs-link-active-bg: rgb(68, 68, 68);
+    border: 0px;
+
+}
+
+div.menu .nav-tabs .nav-link {
+    color: black;
+    font-size: 28px;
+}
+
+div.menu .nav-tabs .nav-link:active {
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+div.menu .nav-tabs .nav-link:hover {
+    border: 0px;
+    border-radius: 10px;
 }

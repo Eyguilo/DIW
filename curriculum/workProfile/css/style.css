@@ -41,7 +41,9 @@ div.menu{
 div.menu .nav-tabs{
     border-bottom: solid 2px rgb(232, 232, 232);
     font-size: 18px;
-        --bs-nav-tabs-link-active-bg: rgb(68, 68, 68);    
+}
+div.menu .nav-tabs{
+    --bs-nav-tabs-link-active-bg: rgb(68, 68, 68);    
     --bs-nav-tabs-link-active-border-color: rgb(232, 232, 232);  
 }
 div.menu .nav-tabs .nav-link{
@@ -68,6 +70,8 @@ h1.title {
 div.name {
     width: 100%;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p.name {
@@ -80,19 +84,13 @@ div.box1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    width: 250px;
+    width: 350px;
     border-top: 5px solid rgb(178, 178, 178);
     border-right: 5px solid rgb(63, 63, 63);
     border-bottom: 5px solid rgb(63, 63, 63);
     border-left: 5px solid rgb(178, 178, 178);
     margin-top: 10px;
     font-size: 18px;
-}
-
-div.image {
-    width: 100%;
-    margin-bottom: 10px;
-    height: 200px;
 }
 
 div.circle {
@@ -101,28 +99,22 @@ div.circle {
     width: 100%;
 }
 
-div.portrait {
-    width:150px;
-    height:150px;
+div.content{
+    width: 100%;
+    margin-bottom: 15px;
+}
+p.info{
+    font-style: normal;
+    text-align: justify;
+    margin: 5px;
+    font-size: 16px;
+}
+p i.bi, p i.fa-solid{
+    font-size: 25px;
+}
+hr{
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
-}
-
-img {
-    width:100%;
-    height:100%;
-}
-
-div.box2 {
-    color: black;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    width: 350px;
-    border-top: 5px solid rgb(178, 178, 178);
-    border-right: 5px solid rgb(63, 63, 63);
-    border-bottom: 5px solid rgb(63, 63, 63);
-    border-left: 5px solid rgb(178, 178, 178);
-    margin-top: 10px;
-    font-size: 18px;
+    border: 1px solid;
 }
